@@ -1,0 +1,48 @@
+
+header{
+    margin: 0;
+     display: none;
+     background-color: rgb(228, 239, 239);
+     padding: 0 10px; 
+}
+
+.TheHeader{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.TheHeader .fa-solid{
+    padding: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.TheHeader .fa-solid:hover{
+    background-color: rgba(0, 0, 0, 0.446);
+    color: #ffffff94;
+}
+
+
+@media screen and (max-width : 800px) {
+    header{
+        display: block;
+        position: sticky;
+        top: -1px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
