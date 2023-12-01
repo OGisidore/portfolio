@@ -1,63 +1,48 @@
 aside{
+    padding: 15px;
     width: 20%;
-    position: relative;
-    display: block;
-    justify-content: center;
-    background-color: #fff;
     height: 100vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+
 }
 aside *{
     width: 100%;
-
 }
-
-/* -------les parametres de la classe profil ---------------- */
-
-
 .profil{
-    padding: 10px 0 0 0;
-    width: 100%;
+    height: 100vh;
     display: block;
+    padding-top: 10px;
     justify-content: center;
-
 }
+
 .photo{
-    width: 100%;
     position: relative;
+    margin: 0;
     display: block;
     justify-content: center;
-}
+    
 
+}
 .photo img{
-    margin: 10px 30%;
     width: 110px;
-    height: auto;
-    background-color: #07d6fb;
+    border: 1ps solid rgba(0, 0, 0, 0.547);
     border-radius: 50%;
+    background-color: aqua;
 }
 
 .photo h2{
-    font-size: 30px;
-    margin: 25px 0 5px 0;
-    line-height: 0;
+    text-align: center;
+    position: relative;
+}
+.photo{
     text-align: center;
 }
-.photo p{
-    text-align: center;
-    margin: 25px 0;
-    color: rgba(0, 0, 0, 0.387);
-}
-
-
-
-
-/*----------------- les parametres de la classe nav---------------------- */
-
-
 
 
 .nav{
-    margin: 20px 0;
+    padding: 15px 0px;
     display: flex;
     justify-content: center;
 }
@@ -70,81 +55,65 @@ aside *{
 
 }
 .nav ul a{
+    margin:20px 0;
     text-decoration: none;
 }
 .nav ul li{
+    border: 0.2px solid  rgba(128, 128, 128, 0.138);
     font-weight: bold;
-    padding: 10px 0;
+    padding: 15px 0;
     color: black;
     text-decoration: none;
-    border: 0.2px solid  rgba(128, 128, 128, 0.138);
 }
 
-.nav ul li:hover,
-.nav ul li:focus{
+.nav  li:hover,
+.nav  li:focus{
+    width: 97%;
     background-color: #36323239;
     border-right: 10px solid orange;
 }
 
 
-/*------------------------------------ les parametres de la class social et reseau------------------------ */
+
+
 
 .social{
+    width: 100%;
     position: relative;
     margin: 0;
     display: flex;
     justify-content: center;
 }
-.reseau{
-    position: relative;
-    max-width: 80%;
-    display: inline-flex;
-    justify-content: space-between;
+
+.social .reseau{
+    width: 70%;
+    display: flex;
+    justify-content: center;
 }
 .reseau a{
-    color: rgba(0, 0, 0, 0.656);
-    text-align: center;
-}
-.reseau   a .fa-brands{
-    font-size: 20px;
-    background-color: rgba(0, 0, 0, 0.182);
-    width: 27px;
-    height: 27px;
-    text-align: center;
-    padding: 10px;
-    border-radius: 10px;
-}
-.reseau   a .fa-brands:hover{
-    font-size: 20px;
-    background-color: rgba(0, 0, 0, 0.526);
-    width: 27px;
+    color: rgba(0, 0, 0, 0.583);
     text-align: center;
     padding: 10px;
     border: 1px solid;
+    margin: 0 10%;
+    background-color: #5853535c;
+}
+.reseau a .fa-brands{
+    width: 15px;
+    height: 11px;
+    font-size: 100%;
+}
+.reseau a:hover{
+    color: rgba(151, 145, 145, 0.969);
+    border: 1px solid;
+    
+    background-color: #333131;
 }
 
 
 @media screen and (max-width : 800px) {
-   
-
     aside{
         display: none;
     }
-   
-}
 
-/* ---------------------les parametres des ecras de plus de 800px et moin de 1000px */
-
-
-@media screen and (min-width : 800px) and ( max-width:1000px) {
-    .photo img{
-        max-width:  80px;
-        margin: 10px 25%;
-    }
-
-    .reseau   a .fa-brands{
-        width: 18px;
-        height: 18px;
-    }
-    
-}
+} 
