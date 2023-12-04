@@ -2,12 +2,16 @@
 /* -------------les parametres de main------------------------ */
 section{
     background-color: rgb(198, 186, 186);
-    height: 100vh;
+    background-size: cover;
+    background-attachment: local;
+    height: 100%;
     display: flex;
     padding: 0px 10px;
 }
 
 main{
+    position: relative;
+    /* left: 20%; */
     background-image: url(/assert/images/Home-background/Home_background.jpg);
     width: 80%;
     margin: 0 0 0 10px;
@@ -26,9 +30,11 @@ main{
     background-color: #fff;
     width: fit-content;
     border-radius: 10px 0 0 10px;
+    border: 2px solid rgba(53, 52, 52, 0.474);
     top: 100px;
     right: 0;
     color: orange;
+    z-index: 3;
 }
 .fixed .fa-solid{
     font-size: 30px;
