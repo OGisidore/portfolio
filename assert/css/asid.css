@@ -1,7 +1,7 @@
 aside{
-    position: sticky;
-    top: 0; 
-    padding: 15px;
+    position: fixed;
+    /* top: 0;  */
+    /* padding: 15px; */
     width: 20%;
     height: 100vh;
     background-color: #fff;

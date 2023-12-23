@@ -10,11 +10,12 @@ section{
 }
 
 main{
-    position: relative;
-    /* left: 20%; */
+    height: 100%;
+    position: absolute;
+    right: 0%;
     background-image: url(/assert/images/Home-background/Home_background.jpg);
-    width: 80%;
-    margin: 0 0 0 10px;
+    width: 78%;
+    /* margin: 0 0 0 10px; */
 }
 
 .container{

@@ -1,9 +1,7 @@
 .main{
-    position: relative;
-    left: 22%;
-    /* padding: 10px 50px; */
-    /* background-image: url(/assert/images/Home-background/Home_background.jpg); */
-    width: 78%;
+    position: absolute;
+    right: 0%;
+    width: 79%;
     margin: 0 10px;
 }
 
@@ -19,18 +17,18 @@
 }
 .titre{
     position: absolute;
-    left: 10px;
-    top: 70px;
+    left: 16px;
+    top: 62px;
     color: white;
-    background-color: rgba(255, 166, 0, 0.828);
+    background-color: rgba(255, 166, 0, 0.64);
     width: 1px;
     padding: 1px 10px;
-    transform: rotateZ(40deg);
+    transform: rotateZ(30deg);
 
 }
 .description{
     position: relative;
-    left: -29px;
+    left: -18px;
     color: white;
     background-color: orange;
     width: 180px;
@@ -66,6 +64,7 @@
 }
 
 .testimonials{
+    max-width: 380px;
     margin-left: 10px;
 }
 .testimonials h2{
@@ -80,7 +79,7 @@
     font-style: italic;
     font-size: larger;
     text-align: justify;
-    padding: 40px;
+    padding: 20px;
     border: 1px solid #3b383894;
     border-radius: 12px;
 }
